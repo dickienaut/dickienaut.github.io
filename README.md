@@ -1,1 +1,1 @@
-This is a personal website built using React.js
+This is a personal website built using React
