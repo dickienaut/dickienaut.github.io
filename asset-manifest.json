@@ -1,23 +1,23 @@
 {
   "files": {
-    "main.css": "/dickienaut/dickienaut.github.io/static/css/main.5f361e03.chunk.css",
-    "main.js": "/dickienaut/dickienaut.github.io/static/js/main.1423c74d.chunk.js",
-    "main.js.map": "/dickienaut/dickienaut.github.io/static/js/main.1423c74d.chunk.js.map",
-    "runtime-main.js": "/dickienaut/dickienaut.github.io/static/js/runtime-main.c302bd37.js",
-    "runtime-main.js.map": "/dickienaut/dickienaut.github.io/static/js/runtime-main.c302bd37.js.map",
-    "static/js/2.0edf3a20.chunk.js": "/dickienaut/dickienaut.github.io/static/js/2.0edf3a20.chunk.js",
-    "static/js/2.0edf3a20.chunk.js.map": "/dickienaut/dickienaut.github.io/static/js/2.0edf3a20.chunk.js.map",
-    "index.html": "/dickienaut/dickienaut.github.io/index.html",
-    "precache-manifest.ca3da6c9ee65d6cbfe4767ad66bf3fe8.js": "/dickienaut/dickienaut.github.io/precache-manifest.ca3da6c9ee65d6cbfe4767ad66bf3fe8.js",
-    "service-worker.js": "/dickienaut/dickienaut.github.io/service-worker.js",
-    "static/css/main.5f361e03.chunk.css.map": "/dickienaut/dickienaut.github.io/static/css/main.5f361e03.chunk.css.map",
-    "static/js/2.0edf3a20.chunk.js.LICENSE.txt": "/dickienaut/dickienaut.github.io/static/js/2.0edf3a20.chunk.js.LICENSE.txt",
-    "static/media/logo.svg": "/dickienaut/dickienaut.github.io/static/media/logo.5d5d9eef.svg"
+    "main.css": "/static/css/main.5f361e03.chunk.css",
+    "main.js": "/static/js/main.6ab063c8.chunk.js",
+    "main.js.map": "/static/js/main.6ab063c8.chunk.js.map",
+    "runtime-main.js": "/static/js/runtime-main.07f57d42.js",
+    "runtime-main.js.map": "/static/js/runtime-main.07f57d42.js.map",
+    "static/js/2.0edf3a20.chunk.js": "/static/js/2.0edf3a20.chunk.js",
+    "static/js/2.0edf3a20.chunk.js.map": "/static/js/2.0edf3a20.chunk.js.map",
+    "index.html": "/index.html",
+    "precache-manifest.1a924bbfb1bc28a8e0ad172394948358.js": "/precache-manifest.1a924bbfb1bc28a8e0ad172394948358.js",
+    "service-worker.js": "/service-worker.js",
+    "static/css/main.5f361e03.chunk.css.map": "/static/css/main.5f361e03.chunk.css.map",
+    "static/js/2.0edf3a20.chunk.js.LICENSE.txt": "/static/js/2.0edf3a20.chunk.js.LICENSE.txt",
+    "static/media/logo.svg": "/static/media/logo.5d5d9eef.svg"
   },
   "entrypoints": [
-    "static/js/runtime-main.c302bd37.js",
+    "static/js/runtime-main.07f57d42.js",
     "static/js/2.0edf3a20.chunk.js",
     "static/css/main.5f361e03.chunk.css",
-    "static/js/main.1423c74d.chunk.js"
+    "static/js/main.6ab063c8.chunk.js"
   ]
 }
