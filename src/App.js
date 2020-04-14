@@ -1,21 +1,22 @@
 import React from 'react';
-import image from './images/test.jpg'
+import Home from './pages/home.jsx'
+import { HashRouter, Route, Link } from "react-router-dom";
 import './App.css';
 
-const images = [
-  'https://ibb.co/F0fkQBD',
-  'https://ibb.co/59Sgrp6',
-  'https://ibb.co/Czjqrk3',
-  'https://ibb.co/qj7LMkz'
-]
+// const images = [
+//   'https://ibb.co/F0fkQBD',
+//   'https://ibb.co/59Sgrp6',
+//   'https://ibb.co/Czjqrk3',
+//   'https://ibb.co/qj7LMkz'
+// ]
 
 function App() {
   return (
-    <div className="App">
-      <h1>Hello World</h1>
-      <img src={image} alt='profile'/>
-      <p>My name is Lyle and I build things on the web</p>
-    </div>
+    <HashRouter basename='/'>
+      <div className="App">
+        <Route exact path='/' component={Home}/>
+      </div>
+    </HashRouter>
   );
 }
 
