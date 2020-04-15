@@ -14,6 +14,7 @@ const Home = () => {
       </ul>
       <img src={image} alt='profile'/>
       <p>My name is Lyle and I build things on the web</p>
+      <p>This site was built with React</p>
     </div>
   );
 }
