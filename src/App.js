@@ -1,5 +1,7 @@
 import React from 'react';
-import Home from './pages/home.jsx'
+import Home from './pages/home/home.jsx'
+import About from './pages/about/about.jsx'
+import Gallery from './pages/gallery/gallery.jsx'
 import { HashRouter, Route, Link } from "react-router-dom";
 import './App.css';
 
@@ -15,6 +17,8 @@ function App() {
     <HashRouter basename='/'>
       <div className="App">
         <Route exact path='/' component={Home}/>
+        <Route exact path='/about' component={About}/>
+        <Route exact path='/gallery' component={Gallery}/>
       </div>
     </HashRouter>
   );
