@@ -1,6 +1,8 @@
 import React, { useState, useCallback } from 'react';
 import Gallery from "react-photo-gallery";
-import Carousel, { Modal, ModalGateway } from "react-images";
+import GalleryItem from '../../components/gallery-item/gallery-item.jsx'
+
+import { displayPhotos } from '../../images/photos/index.js'
 import { photos } from '../../images/photos.js'
 
 const MyGallery = () => {
@@ -19,25 +21,12 @@ const MyGallery = () => {
     setViewerIsOpen(false);
   };
 
-
+  let e
   return (
     <div>
       <h1>Gallery</h1>
-      <Gallery photos={photos} direction={'column'} onClick={openLightbox}/>
-      <ModalGateway>
-        {viewerIsOpen ? (
-          <Modal onClose={closeLightbox}>
-            <Carousel
-              currentIndex={currentImage}
-              views={photos.map(x => ({
-                ...x,
-                srcset: x.srcSet,
-                caption: x.title
-              }))}
-              />
-          </Modal>
-        ) : null}
-      </ModalGateway>
+      <Gallery photos={photos} direction={'row'} onClick={(event) => e = event.target.src}/>
+      <GalleryItem url={e} />
     </div>
   );
 }
